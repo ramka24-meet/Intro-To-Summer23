@@ -25,7 +25,7 @@ like(ytvid2)
 dislike(ytvid2)
 add_comment(ytvid2,"AmirHater424","He really is")
 for i in range(495):
-	like(ytvid2)
+	dislike(ytvid2)
 print(ytvid2)
 
 def hashtag(ytvid):
@@ -39,7 +39,7 @@ def similar(ytvid, ytvid2):
 	precentage = 0
 	for i in ytvid["hashtag"]:
 		for j in ytvid2["hashtag"]:
-			if i == j:
+			if i == j and i!="":
 				precentage+=20
 	print(precentage)
 def trending(ytvid):
