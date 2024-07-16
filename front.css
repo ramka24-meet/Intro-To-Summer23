@@ -1,0 +1,19 @@
+#wowAmir{
+	margin: auto;
+ 	width: 50%;
+ 	padding: 10px;
+ 	text-align: center;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	font-size: 40px;
+}
+.Amirh2{
+	margin: auto;
+ 	width: 50%;
+ 	padding: 10px;
+ 	text-align: center;
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	font-size: 25px;
+}
+body{
+	background-color: lightblue; 
+}
